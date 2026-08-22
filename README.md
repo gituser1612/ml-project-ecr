@@ -1,1 +1,1 @@
-## End to End Machine Learning Project with Deployment in AWS conf
+## End to End Machine Learning Project with Deployment in AWS configuration
