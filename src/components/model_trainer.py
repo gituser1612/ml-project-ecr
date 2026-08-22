@@ -96,7 +96,8 @@ class ModelTrainer:
             best_model_name = list(model_report.keys())[
                 list(model_report.values()).index(best_model_score)
             ]
-
+            print(f"\nBest Model: {best_model_name}")
+            print(f"Best Model R2 Score: {best_model_score:.4f}")
             best_model= models[best_model_name]
 
             if best_model_score <0.6:
